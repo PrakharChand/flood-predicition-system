@@ -56,7 +56,7 @@ def scale_features(
     scaler_path: str = "ml/artifacts/scaler.pkl"
 ):
     """
-    Scales numerical features using StandardScaler.
+    Scales numerical - features using StandardScaler.
 
     IMPORTANT:
     - Fit ONLY on X_train
